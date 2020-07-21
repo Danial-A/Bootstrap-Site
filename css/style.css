@@ -134,6 +134,54 @@ img{
     height: 500px !important;
 }
 
+
+/* Footer Section */
+/* Social Icons setting */
+/* i{
+    padding-right: 10px !important;
+} */
+footer{
+    background:rgb(58,69,163);
+    color: white;
+    
+}
+
+
+.icons a{
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+.icons a:hover{
+    color: rgb(177, 176, 176);
+}
+
+.blogs ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0 ;
+}
+.blogs ul li {
+    border-bottom: 1px solid white;
+    line-height:40px;
+    display: block;
+
+}
+.blogs ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+input.news-input{
+    margin-bottom: 10px;
+}
+.customer-pic{
+    margin-top: 50px;
+}
+
+
+/* Media Queries */
 @media screen and (max-width:770px){
     img{
        height: 300px;
@@ -159,15 +207,3 @@ img{
 
 }
 
-/* About us section */
-/* #aboutus{
-    background:#f8f9fa !important;
-    padding-bottom: 50px;
-    padding-top: 50px;
-
-} */
-@media screen and (max-width:576px){
-    #customer img{
-        margin-top: -100px;
-    }
-}
