@@ -1,3 +1,55 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+/* Home section */
+
+/* #home{
+    background: url(../imgs/music.jpg) no-repeat center center fixed;
+    display: table;
+    height: 70%;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+
+.home-text{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: blue;
+    font-family: 'Rowdies', cursive;
+    font-size: 40px !important;
+} */
+.padding{
+    padding:80px 0 ;
+    margin-top: 10px;
+}
+
+.padding img{
+    width: 1090%;
+}
+
+#customer img{
+    width: 100%;
+}
+.customer-text{
+    padding-top: 100px;
+}
+
+#fixed{
+    background: linear-gradient(to bottom, rgba(143, 156, 228, 0.52), rgba(128, 209, 247, 0.73)), url(../imgs/music.jpg) no-repeat center center fixed;
+    display: table;
+    height: 30%;
+    position: relative;
+    width: 100% !important;
+    background-size: cover;
+}
+
+
+
+
 .navbar-brand{
     border: 5px solid white;
     padding:5px 10px;
@@ -49,7 +101,7 @@
 }
 
 /* Description or main section */
-#description{
+#description {
     background: rgb(58,69,163);
     color: white;
     padding-top: 10%;
@@ -105,4 +157,17 @@ img{
     }
 
 
+}
+
+/* About us section */
+/* #aboutus{
+    background:#f8f9fa !important;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+} */
+@media screen and (max-width:576px){
+    #customer img{
+        margin-top: -100px;
+    }
 }
